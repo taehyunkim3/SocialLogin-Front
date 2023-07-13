@@ -26,8 +26,8 @@ const KakaoCallback = () => {
 
   return (
     <div>
-      LoginRedirect
-      <h1>{code}</h1>
+      <h1>잠시만 기다려주세요. 카카오에서 홈으로 이동중</h1>
+      <h2>코드:{code}</h2>
     </div>
   );
 };

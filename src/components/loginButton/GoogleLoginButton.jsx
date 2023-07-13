@@ -1,5 +1,5 @@
 const GoogleLoginButton = () => {
-  const clientId = import.meta.env.VITE_GOOGLE_CLIENT_ID;
+
   const LoginURL = `https://accounts.google.com/o/oauth2/v2/auth?response_type=code&client_id=${
     import.meta.env.VITE_GOOGLE_CLIENT_ID
   }&scope=openid%20profile%20email&redirect_uri=http://localhost:3000/google/callback`;
